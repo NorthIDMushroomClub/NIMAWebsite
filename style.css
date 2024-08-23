@@ -1,0 +1,777 @@
+html{
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+  align-items: center;
+}
+
+body{
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color:  #1B2A21;
+}
+
+/* Navbar Area */
+
+.nav-link {
+  color: white;
+}
+
+.navbar-toggler{
+  margin-left: auto;
+  background-color: #6E9078;
+  color: #4A6751;
+}
+.navbar-toggler:hover{
+  background-color: #4A6751;
+}
+
+
+.navbar-brand img {
+  position: absolute;
+  margin-left: -40px;
+  top: 0;
+  left: 50%;
+  width:100px;
+  height:100px;
+}
+
+.navbar-nav {
+  margin-left: auto;
+}
+
+.navbar-nav-first .nav-link {
+  margin-right: 20px;
+}
+
+.navbar-nav-first .nav-link:hover{
+  color: #4A6751;
+}
+
+.navbar-nav .nav-link:hover{
+  color: #4A6751;
+}
+
+
+#main-menu{
+  width:100%;
+  position:relative;
+}
+
+
+
+/* Hero Area */
+
+#hero-section{
+  padding: 200px 0;
+  text-align: center;
+  background-size: cover;
+  background-position: center;
+  color: white;
+  position: relative;
+  z-index: 100;
+  height: 92vh;
+}
+
+
+.gradient-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3));
+  z-index: -1;
+}
+
+#bgvideo {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  object-fit: cover;
+}
+
+.hero-text{
+  padding-right: 80%;
+  padding-left: 10%;
+  font-size: 4rem;
+  padding-top: 100px;
+}
+
+.hero-text-sub{
+  width: 65vw; 
+  padding-left: 10%;
+  text-align: left;
+}
+
+.quattrocento-regular {
+  font-family: "Quattrocento", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.involved{
+  background-color:  #1B2A21;
+  margin-bottom: 0;
+}
+
+.oswald-text {
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+/* Home Page about us */
+
+#AU-section{
+  text-align:center;
+  justify-content: center;
+  background-color:#23362B;
+  color: #ffffff;
+}
+
+.au-con{
+  background-color:#1B2A21;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 93%);
+}
+
+.au-header{
+  padding-bottom: 25px;
+  font-size: 3rem;
+}
+
+.au-p{
+  justify-content: center;
+}
+
+.au-pic{
+  border: 1px solid black;
+  align-self: center;
+  height: 70%;
+  width: 50%;
+}
+
+hr.style-seven {
+  width: 90%;
+  margin: auto;
+  border: 0;
+  height: 2px;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgb(255, 255, 255, 0.75), rgba(0, 0, 0, 0));
+}
+
+.index-mem{
+  background-color: #23362B;
+  color: white;
+}
+
+#index-carousel {
+  background-color: #1B2A21;
+  padding: 0;
+}
+
+.car-con{
+  max-width: 800px;
+}
+
+.carousel-caption{
+  color: white;
+  z-index: 1;
+  font-size: 20px;
+}
+
+.carousel-item img {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.carousel-item{
+  position:relative;
+  display:inline-block;
+}
+
+.carousel-item:after {
+  content:'';
+  position:absolute;
+  left:0; 
+  top:0;
+  width:100%; 
+  height:100%;
+  display:inline-block;
+  background: rgba(0,0,0,.4);
+}
+
+.au-quote{
+  text-align: center;
+  background-color: #1B2A21;
+  color: #ffffff;
+  padding-top: 10%;
+  padding-bottom: 10%;
+}
+
+.bonheur-royale-regular {
+  font-family: "Bonheur Royale", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 75px;
+}
+
+
+/* footer */
+
+#footer{
+  position: relative;
+  background-color: #1B2A21;
+  color: #ffffff;
+}
+
+.footer-con{
+   clip-path: polygon(49.9% 0%, 80.4% 31.5%, 90.7% 6.3%, 100.1% 18%, 100.1% 100.3%, 0% 100%, 0% 25.5%, 11.3% 0%, 26.8% 20%);
+  background-color: #BEBC9C;
+}
+
+ul{
+  list-style-type: none;
+  display: inline-block;
+  padding-top: 50px;
+  bottom: 0;
+}
+
+ul a{
+  text-decoration: none;
+  font-weight: bold;
+  color:#1B2A21;
+  
+}
+
+ul a:hover{
+  color: #4A6751;
+}
+
+.footer-btn{
+  color: #1B2A21;
+  float: right;
+  font-size: 50px;
+  margin-top: 60px;
+}
+
+.footer-btn:hover{
+  color: #4A6751;
+}
+
+/* About us page */
+
+#aup-hero-section{
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.3)), url(img/aup_hero.jpg);
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-position:center;
+  width: 100%;
+  height: 75vh;
+}
+
+.aup-header{
+  float: left;
+  color: white;
+  font-size: 5rem;
+}
+
+.aup-main{
+  justify-content: center;
+  text-align: center;
+  background-color: #1B2A21;
+  color: white;
+  padding: 10%;
+  font-size: 1rem;
+}
+
+.au-btn{
+  color: white;
+}
+
+
+.btn-con{
+  text-align: center;
+  
+}
+/* Event Page */
+
+#event-hero-section{
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.3)), url(img/event_hero.jpg);
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-position:center;
+  width: 100%;
+  height: 75vh;
+}
+
+.events-header{
+  color: white;
+  
+}
+
+#events-p{
+  font-size: 550%;
+}
+
+@media only screen and (max-width: 600px) {
+  #events-p{
+    font-size: 100%;
+  }
+}
+
+.upcoming{
+  text-align: center;
+  background-color: #1B2A21;
+  color: white;
+  padding-bottom: 75px;
+}
+
+#event-card{
+  width: 18rem;
+}
+
+.event-card-link{
+  color:#4A6751;
+  text-decoration: none;
+  font-weight: bold;
+  position: static;
+}
+
+.event-card-text{
+  color: black;
+}
+
+.event-card-link:hover{
+  color: #1B2A21;
+}
+
+.card-group{
+  display: flex;
+}
+
+.card-img{
+  min-height:200px;
+  max-height: 200px;
+}
+
+/* Resources Page */
+
+#resource-hero-section{
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.3)), url(img/resource-mushroom-hero.jpg);
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-position:center;
+  width: 100%;
+  height: 75vh;
+}
+
+.resource-header{
+  color: white;
+  font-size: 5rem;
+}
+
+#rec{
+  background-color: #1B2A21;
+  color: white;
+
+}
+
+.clip-path-1{
+  background-color: #23362B;
+  clip-path: polygon(0 0, 71% 0, 100% 100%, 0% 100%);
+}
+
+.rec-con p {
+    text-align: left;
+}
+.clip-path-2 h3{
+  text-decoration: underline dotted;
+}
+
+.rec-con .path-2{
+  text-align: right;
+}
+
+
+@media only screen and (max-width: 600px) {
+  .resource-header{
+  color: white;
+  font-size: 3rem;
+  }
+  .flip-cards .flip-card-section-header{
+    font-size: 2rem;
+  }
+  .flip-cards .flip-card-section-sub{
+    font-size: 1rem;
+  }
+  .clip-path-1{
+    clip-path: polygon(0 0, 84% 0, 100% 100%, 0% 100%);
+  }
+}
+
+.flip-card-section-header{
+  font-size: 4rem;
+}
+
+.flip-card-section-sub{
+  font-size: 1.5rem;
+}
+
+
+.flip-cards{
+  background-color: #1B2A21;
+  padding-bottom: 110px;
+  color: white;
+  text-align: center;
+}
+
+ .flip-card {
+  background-color: transparent;
+  width: 300px;
+  height: 300px;
+  perspective: 1000px;
+  padding-bottom: 25px;
+}
+
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; 
+  backface-visibility: hidden;
+}
+
+
+.flip-card-front {
+  background-color: #bbb;
+  color: black;
+}
+
+
+.flip-card-back {
+  background-color: #4A6751;
+  color: white;
+  transform: rotateY(180deg);
+  padding-bottom: 275px;
+}
+
+.fc-card-img{
+  width: 100%;
+  height: 100%;
+  
+}
+
+.card-text{
+  margin-top: -20px;
+  color: white;
+  font-size: .90rem;
+}
+
+.card-box{
+  justify-content: center;
+  display: flex;
+}
+
+/* Member Page */
+
+#member-hero-section{
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.3)), url(img/member-hero.jpg);
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-position:center;
+  width: 100%;
+  height: 75vh;
+}
+
+.member-header{
+  color: white;
+  font-size: 5rem;
+}
+
+@media only screen and (max-width: 600px) {
+  .member-header{
+    color: white;
+    font-size: 3rem;
+  }
+}
+
+.member-form{
+  padding: 20px;
+  height: 100%;
+}
+
+#member-form{
+  background-color:  #1B2A21;
+}
+
+#member-form h1, p{
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+/* Contact page */
+
+#contact-hero-section{
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.3)), url(img/contact-hero.jpg);
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-position:center;
+  width: 100%;
+  height: 75vh;
+}
+
+.contact-header{
+  float: right;
+  color: white;
+  font-size: 5rem;
+}
+
+.contact-main{
+  text-align: center;
+  background-color: #1B2A21;
+  color: white;
+  font-size: 1.1rem;
+}
+
+.contact-main h1{
+  padding-top: 20px;
+}
+
+.main-con{
+  padding-bottom: 50px;
+}
+
+#contact-table{
+  padding-bottom: 50px;
+  background-color: #1B2A21;
+  font-size: 1rem;
+  margin-top: -20px;
+}
+
+@media only screen and (max-width: 600px) {
+  #contact-table{
+    padding-bottom: 50px;
+    margin: 0;
+  }
+  .table-con{
+    
+    padding: 0;
+    font-size: .6rem;
+  }
+}
+
+
+#contact-table th{
+  background-color: #1B2A21;
+  color: white;
+}
+
+#contact-table td{
+  background-color: #1B2A21;
+  color: white;
+}
+
+/* Bylaws Page */
+
+#bylaw-hero-section{
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.3)), url(img/bylaw-hero.jpg);
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-position:center;
+  width: 100%;
+  height: 75vh;
+}
+
+.bylaw-header{
+  float: left;
+  color: white;
+  font-size: 5rem;
+}
+
+.bylaw-main{
+  text-align: center;
+  background-color: #1B2A21;
+  color: white;
+  font-size: 1.1rem;
+  /* margin-bottom: -50px; */
+}
+
+
+
+/* Donate Page */
+
+#donate-hero-section{
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.3)), url(img/donate-hero.jpg);
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-position:center;
+  width: 100%;
+  height: 75vh;
+}
+
+.donate-header{
+  float: right;
+  color: white;
+  font-size: 4rem;
+}
+
+.donate-main{
+  text-align: center;
+  background-color: #1B2A21;
+  color: white;
+  font-size: 1.1rem;
+}
+
+#donate-form{
+  background-color:  #1B2A21;
+}
+
+#donate-form h1, p{
+  color: white;
+  text-align: center;
+}
+
+.donate-paragraph{
+font-size: 16px;
+}
+
+/* Volunteer Page */
+
+#volunteer-hero-section{
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(rgba(0,0,0,.4), rgba(0,0,0,.4)), url(img/volunteer-hero.jpg);
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-position:center;
+  width: 100%;
+  height: 75vh;
+}
+
+.volunteer-header{
+  color: white;
+  font-size: 4rem;
+  float: inline-start;
+
+}
+
+.volunteer-form{
+  padding: 20px;
+  height: 100%;
+  color: white;
+}
+
+.vol-form iframe{
+  min-width: 100%;
+  max-width: 100%;
+  overflow: scroll;
+  border: none;
+  max-height:700px;
+  height: 700px;
+}
+
+#volunteer-form{
+  background-color:  #1B2A21;
+}
+
+#volunteer-form h1, p{
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+.vol-btn{
+  background-color: transparent;
+  color:white;
+  border: solid 1px;
+  font-size: 20px;
+  float: left;
+}
+
+.link{
+  text-decoration: none;
+  color: #709a08;
+}
+
+.link:hover{
+  color: #83c702;
+}
+
+/* Media */
+
+@media only screen and (max-width: 600px) {
+  .hero-text{
+    padding-right: 80%;
+    padding-left: 10%;
+    font-size: 3rem;
+    padding-top: 100px;
+  }
+  .hero-text-sub{
+    width: 65vw; 
+    padding-left: 10%;
+    text-align: left;
+    font-size: 14px;
+  }
+  .bonheur-royale-regular{
+    font-size: 50px;
+  }
+  .au-con{
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 98%);
+  }
+}
