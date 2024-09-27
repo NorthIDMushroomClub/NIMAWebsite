@@ -62,6 +62,51 @@ body{
   position:relative;
 }
 
+/* For larger screens: display nav links across the top */
+@media (min-width: 992px) {
+  .navbar-collapse {
+    justify-content: center;
+    position: relative;
+  }
+
+  .navbar-nav-first {
+    display: flex;
+    justify-content: center;
+  }
+
+  .nav-link {
+    display: inline-block;
+    text-align: center;
+    width: auto; /* Prevent full-width behavior on larger screens */
+  }
+}
+
+/* For smaller screens: Align dropdown to the right */
+@media (max-width: 991px) {
+  .navbar-collapse {
+    justify-content: flex-end;
+  }
+
+  .custom-dropdown {
+    right: 0; /* Align dropdown to the right of the parent */
+    left: auto; /* Disable the left alignment */
+    position: absolute; /* Ensure it's positioned correctly */
+    top: 100%; /* Make sure it drops just below the hamburger icon */
+    background-color: rgba(74, 103, 81, 0.8); /* Your semi-transparent background */
+    text-align: center; /* Center align the text */
+     /* Make the dropdown items take the full width of the dropdown */
+  }
+
+  .nav-link {
+    display: block; /* Ensure nav items take full width */
+    padding: 5px; /* Adjust padding for better spacing */
+    width: 100%; /* Ensure the links are full-width inside the dropdown */
+    text-align: center; /* Center-align the individual nav links */
+  }
+}
+
+
+
 
 
 /* Hero Area */
