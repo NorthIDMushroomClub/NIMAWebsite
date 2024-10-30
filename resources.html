@@ -23,29 +23,33 @@
 
 <body>
   <!-- Navbar -->
-  <nav class="navbar navbar-expand-lg fixed-top">
-    <div id="main-menu" class="container-fluid d-flex justify-content-between align-items-center">
-      <a class="navbar-brand" href="index.html"><img src="img/logo2.png" class="logo-img" alt="NIMA logo"></a>
-      <button class="navbar-toggler mb-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
-        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse custom-dropdown" id="navbarNavAltMarkup">
-        <div class="navbar-nav-first d-lg-flex justify-content-start">
-          <a class="nav-link pb-2" href="about_us.html">About Us</a>
-          <a class="nav-link pb-2" href="events.html">News/Events</a>
-          <a class="nav-link pb-2" href="bylaws.html">Bylaws</a>
-          <a class="nav-link pb-2" href="volunteer.html">Volunteer</a>
+  <header>
+    <nav class="navbar navbar-expand-lg fixed-top">
+      <div id="main-menu" class="container-fluid d-flex justify-content-between align-items-center">
+        <div class="navbar-brand-wrapper">
+          <a class="navbar-brand" href="index.html" tabindex="0" role="link" aria-label="home button"><img src="img/logo2.png" class="logo-img" alt="NIMA logo/Home button"></a>
         </div>
-        <div class="navbar-nav d-lg-flex justify-content-end">
-          <a class="nav-link" href="member.html">Membership</a>
-          <a class="nav-link" href="contact.html">Contact</a>
-          <a class="nav-link" href="resources.html">Resources</a>
-          <a class="nav-link" href="donate.html">Donate</a>
+        <button class="navbar-toggler mb-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse custom-dropdown" id="navbarNavAltMarkup">
+          <div class="navbar-nav-first d-lg-flex justify-content-start">
+            <a class="nav-link pb-2" href="about_us.html">About Us</a>
+            <a class="nav-link pb-2" href="events.html">News/Events</a>
+            <a class="nav-link pb-2" href="bylaws.html">Bylaws</a>
+            <a class="nav-link pb-2" href="volunteer.html">Volunteer</a>
+          </div>
+          <div class="navbar-nav d-lg-flex justify-content-end">
+            <a class="nav-link" href="member.html">Membership</a>
+            <a class="nav-link" href="contact.html">Contact</a>
+            <a class="nav-link" href="resources.html">Resources</a>
+            <a class="nav-link" href="donate.html">Donate</a>
+          </div>
         </div>
       </div>
-    </div>
-  </nav>
+    </nav>
+  </header>
 
   <!-- Hero section -->
   <section id="resource-hero-section">
@@ -137,13 +141,13 @@
         <li><a class="footer-link quattrocento-regular" href="contact.html">Contact Us</a></li>
       </ul>
 
-          <a href="mailto:gbasham111@gmail.com" class="footer-btn btn btn-lg" id="button">
-            <i class="bi bi-envelope"></i>
-          </a>
+      <a href="mailto:gbasham111@gmail.com" class="footer-btn btn btn-lg" id="button" aria-label="Email us">
+        <i class="bi bi-envelope"></i>
+      </a>
 
-          <a href="https://www.facebook.com/IdahoWildMushrooms" class="footer-btn btn btn-lg" id="button">
-            <i class="bi bi-facebook"></i>
-          </a>
+      <a href="https://www.facebook.com/IdahoWildMushrooms" class="footer-btn btn btn-lg" id="button" aria-label="Visit our Facebook page">
+        <i class="bi bi-facebook"></i>
+      </a>
 
         </div>
       </div>

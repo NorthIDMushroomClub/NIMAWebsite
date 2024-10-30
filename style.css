@@ -16,6 +16,10 @@ body{
 }
 
 /* Navbar Area */
+.navbar a:focus-visible{
+  outline: auto 5px Highlight;
+  color: white;
+}
 
 .nav-link {
   color: white;
@@ -31,14 +35,20 @@ body{
 }
 
 
-.navbar-brand img {
+.navbar-brand-wrapper {
   position: absolute;
-  margin-left: -40px;
   top: 0;
   left: 50%;
-  width:100px;
-  height:100px;
+  transform: translateX(-50%); /* Centers the wrapper */
+  z-index: 10;
 }
+
+.navbar-brand img {
+  width: 100px;
+  height: 100px;
+}
+
+
 
 .navbar-nav {
   margin-left: auto;
