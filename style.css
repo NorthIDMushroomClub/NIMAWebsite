@@ -352,6 +352,25 @@ ul a:hover{
   font-size: 1rem;
 }
 
+.aup__container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.aup__main--h1{
+  margin-bottom: 5rem;
+}
+
+.aup-content {
+  padding-top: 0;
+}
+
+.aup--wrapper{
+  max-width: 70%;
+}
+
 .au-btn{
   color: white;
 }
