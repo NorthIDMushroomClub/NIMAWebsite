@@ -8,10 +8,12 @@ eventParagraph.textContent = "Meetings are over for the season but will resume i
 function seasonChange() {
     const today = new Date();
     const currentMonth = today.getMonth();
+    const eventContent = document.getElementById("event__content"); // Ensure it's retrieved inside the function
 
-    if(currentMonth < 4 || currentMonth > 10){
+    if (eventContent && (currentMonth < 4 || currentMonth > 10)) {
         eventContent.insertBefore(eventParagraph, eventContent.firstChild);
     }
 }
 
-seasonChange();
+// Ensure the DOM is fully loaded before running the function
+document.addEventListener("DOMContentLoaded", seasonChange);
