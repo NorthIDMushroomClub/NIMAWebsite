@@ -10,7 +10,7 @@ function seasonChange() {
     const currentMonth = today.getMonth();
     const eventContent = document.getElementById("event__content"); // Ensure it's retrieved inside the function
 
-    if (eventContent && (currentMonth < 4 || currentMonth > 10)) {
+    if (eventContent && (currentMonth < 3 || currentMonth > 9)) {
         eventContent.insertBefore(eventParagraph, eventContent.firstChild);
     }
 }
