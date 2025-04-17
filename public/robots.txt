@@ -1,0 +1,3 @@
+User-agent: *
+Disallow: /private/  # (Optional: If you want to block certain parts of your site)
+Sitemap: https://northidahomushroomclub.org/sitemap.xml  # Pointing to your sitemap file

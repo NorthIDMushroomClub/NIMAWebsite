@@ -23,6 +23,7 @@ body{
 
 .nav-link {
   color: white;
+  font-size: 1.15rem;
 }
 
 .navbar-toggler{
@@ -47,8 +48,6 @@ body{
   width: 100px;
   height: 100px;
 }
-
-
 
 .navbar-nav {
   margin-left: auto;
@@ -248,7 +247,7 @@ hr.style-seven {
 }
 
 .footer-con{
-   clip-path: polygon(49.9% 0%, 80.4% 31.5%, 90.7% 6.3%, 100.1% 18%, 100.1% 100.3%, 0% 100%, 0% 25.5%, 11.3% 0%, 26.8% 20%);
+  clip-path: polygon(49.9% 0%, 80.4% 31.5%, 90.7% 6.3%, 100.1% 18%, 100.1% 100.3%, 0% 100%, 0% 25.5%, 11.3% 0%, 26.8% 20%);
   background-color: #BEBC9C;
 }
 
@@ -263,7 +262,7 @@ ul a{
   text-decoration: none;
   font-weight: bold;
   color:#1B2A21;
-  
+  font-size: 1.25rem;
 }
 
 ul a:hover{
@@ -288,7 +287,7 @@ ul a:hover{
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.3)), url(img/aup_hero.jpg);
+  background-image: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.3)), url(assets/img/aup_hero.jpg);
   background-size:cover;
   background-repeat: no-repeat;
   background-position:center;
@@ -303,12 +302,8 @@ ul a:hover{
 }
 
 .aup-main{
-  justify-content: center;
-  text-align: center;
   background-color: #1B2A21;
   color: white;
-  padding: 10%;
-  font-size: 1rem;
 }
 
 .aup__container{
@@ -316,29 +311,23 @@ ul a:hover{
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  max-width: 65%;
 }
 
 .aup__main--h1{
-  margin-bottom: 5rem;
+  padding: 5rem 0 2rem 0;
 }
 
 .aup-content {
-  padding-top: 0;
-}
-
-.aup--wrapper{
-  max-width: 70%;
+  font-size: 1.25rem;
 }
 
 .au-btn{
   color: white;
+  font-size: 2rem;
+  margin-bottom: 5rem;
 }
 
-
-.btn-con{
-  text-align: center;
-  
-}
 /* Event Page */
 
 #event-hero-section{
@@ -346,7 +335,7 @@ ul a:hover{
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.3)), url(img/event_hero.jpg);
+  background-image: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.3)), url(assets/img/event_hero.jpg);
   background-size:cover;
   background-repeat: no-repeat;
   background-position:center;
@@ -411,7 +400,7 @@ ul a:hover{
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.3)), url(img/resource-mushroom-hero.jpg);
+  background-image: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.3)), url(assets/img/resource-mushroom-hero.jpg);
   background-size:cover;
   background-repeat: no-repeat;
   background-position:center;
@@ -549,7 +538,7 @@ ul a:hover{
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.3)), url(img/member-hero.jpg);
+  background-image: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.3)), url(assets/img/member-hero.jpg);
   background-size:cover;
   background-repeat: no-repeat;
   background-position:center;
@@ -562,12 +551,6 @@ ul a:hover{
   font-size: 5rem;
 }
 
-@media only screen and (max-width: 600px) {
-  .member-header{
-    color: white;
-    font-size: 3rem;
-  }
-}
 
 .member-form{
   padding: 20px;
@@ -584,6 +567,28 @@ ul a:hover{
   padding: 20px;
 }
 
+#member-form h1{
+  padding-top: 5rem;
+}
+
+#member-form p {
+  font-size: 1.15rem;
+}
+
+
+.involved{
+  max-width: 80%;
+  color: white;
+  text-align: center;
+  padding-top: 2rem;
+}
+
+.involved p {
+  font-size: 1.15rem;
+  margin: auto;
+}
+
+
 /* Contact page */
 
 #contact-hero-section{
@@ -591,7 +596,7 @@ ul a:hover{
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.3)), url(img/contact-hero.jpg);
+  background-image: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.3)), url(assets/img/contact-hero.jpg);
   background-size:cover;
   background-repeat: no-repeat;
   background-position:center;
@@ -609,7 +614,7 @@ ul a:hover{
   text-align: center;
   background-color: #1B2A21;
   color: white;
-  font-size: 1.1rem;
+  font-size: 1.25rem;
 }
 
 .contact-main h1{
@@ -657,7 +662,7 @@ ul a:hover{
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.3)), url(img/bylaw-hero.jpg);
+  background-image: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.3)), url(assets/img/bylaw-hero.jpg);
   background-size:cover;
   background-repeat: no-repeat;
   background-position:center;
@@ -688,7 +693,7 @@ ul a:hover{
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.3)), url(img/donate-hero.jpg);
+  background-image: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.3)), url(assets/img/donate-hero.jpg);
   background-size:cover;
   background-repeat: no-repeat;
   background-position:center;
@@ -713,13 +718,17 @@ ul a:hover{
   background-color:  #1B2A21;
 }
 
-#donate-form h1, p{
+#donate-form h1 {
+  padding-top: 5rem;
+  padding-bottom: 2rem;
   color: white;
   text-align: center;
 }
 
-.donate-paragraph{
-font-size: 16px;
+#donate-form p {
+  font-size: 1.25rem;
+  color: white;
+  text-align: center;
 }
 
 /* Volunteer Page */
@@ -729,7 +738,7 @@ font-size: 16px;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: linear-gradient(rgba(0,0,0,.4), rgba(0,0,0,.4)), url(img/volunteer-hero.jpg);
+  background-image: linear-gradient(rgba(0,0,0,.4), rgba(0,0,0,.4)), url(assets/img/volunteer-hero.jpg);
   background-size:cover;
   background-repeat: no-repeat;
   background-position:center;
@@ -741,7 +750,6 @@ font-size: 16px;
   color: white;
   font-size: 4rem;
   float: inline-start;
-
 }
 
 .volunteer-form{
@@ -766,7 +774,15 @@ font-size: 16px;
 #volunteer-form h1, p{
   color: white;
   text-align: center;
-  padding: 20px;
+}
+
+#volunteer-form h1 {
+  padding: 5rem 0 0 0;
+}
+
+#volunteer-form p {
+  font-size: 1.25rem;
+  padding: 5rem 0 2rem 0;
 }
 
 .vol-btn{
@@ -786,6 +802,134 @@ font-size: 16px;
   color: #83c702;
 }
 
+/* Gallery Page */
+
+#gallery--hero__section{
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url(assets/img/galleryHero.jpg);
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-position:center;
+  width: 100%;
+  height: 75vh;
+}
+
+.gallery--hero__header{
+  color: white;
+  font-size: 4.5rem;
+}
+
+#gallery--main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding-bottom: 5rem;
+}
+
+.gallery--main__header {
+  color: white;
+  padding: 6rem 0 5rem 0;
+  font-size: 2.5rem;
+}
+
+.photo--gallery{
+  display: grid;
+  width: 90%;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 15px;
+  padding: 1 rem;
+}
+
+.photo--gallery img {
+  width: 100%;
+  cursor: pointer;
+  border-radius: 8px;
+  object-fit: cover;
+  height: 240px;
+}
+
+.iframe-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
+  gap: 1rem;
+  padding: 1rem;
+  width: 95%;
+  margin: 0 auto;
+}
+
+.iframe-wrapper {
+  width: 100%;
+  height: 480px; /* Set a fixed height for uniformity */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  overflow: hidden;
+  position: relative;
+}
+
+.iframe-wrapper iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+  display: block;
+  margin: auto;
+}
+
+.lightbox {
+  display: none;
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.9);
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.lightbox.show {
+  display: flex;
+}
+
+.lightbox-content img {
+  object-fit: contain;
+  width: 50vw;      /* Occupies 90% of viewport width */
+  height: auto;     /* Keeps aspect ratio */
+  max-height: 50vh;
+}
+
+.lightbox-nav,
+.lightbox .close {
+  position: absolute;
+  color: white;
+  font-size: 2.5rem;
+  background: none;
+  border: none;
+  cursor: pointer;
+  z-index: 1001;
+}
+
+.lightbox .close {
+  top: 1rem;
+  right: 2rem;
+}
+
+#prev-btn {
+  left: 2rem;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+#next-btn {
+  right: 2rem;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
 /* Media */
 
 @media only screen and (max-width: 600px) {
@@ -802,6 +946,10 @@ font-size: 16px;
   }
   .au-con{
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0 98%);
+  }
+  .member-header{
+    color: white;
+    font-size: 3rem;
   }
 }
 
