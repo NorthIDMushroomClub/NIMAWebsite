@@ -23,7 +23,6 @@ body{
 
 .nav-link {
   color: white;
-  font-size: 1.15rem;
 }
 
 .navbar-toggler{
@@ -162,6 +161,7 @@ body{
 
 .au-p{
   justify-content: center;
+  font-size: 1.15rem;
 }
 
 .au-pic{
@@ -262,7 +262,6 @@ ul a{
   text-decoration: none;
   font-weight: bold;
   color:#1B2A21;
-  font-size: 1.25rem;
 }
 
 ul a:hover{
@@ -316,10 +315,6 @@ ul a:hover{
 
 .aup__main--h1{
   padding: 5rem 0 2rem 0;
-}
-
-.aup-content {
-  font-size: 1.25rem;
 }
 
 .au-btn{
@@ -416,7 +411,6 @@ ul a:hover{
 #rec{
   background-color: #1B2A21;
   color: white;
-
 }
 
 .clip-path-1{
@@ -453,11 +447,12 @@ ul a:hover{
 }
 
 .flip-card-section-header{
+  padding-top: 5rem;
   font-size: 4rem;
 }
 
 .flip-card-section-sub{
-  font-size: 1.5rem;
+  font-size: 1.15rem;
 }
 
 
@@ -571,11 +566,6 @@ ul a:hover{
   padding-top: 5rem;
 }
 
-#member-form p {
-  font-size: 1.15rem;
-}
-
-
 .involved{
   max-width: 80%;
   color: white;
@@ -584,7 +574,6 @@ ul a:hover{
 }
 
 .involved p {
-  font-size: 1.15rem;
   margin: auto;
 }
 
@@ -614,7 +603,6 @@ ul a:hover{
   text-align: center;
   background-color: #1B2A21;
   color: white;
-  font-size: 1.25rem;
 }
 
 .contact-main h1{
@@ -677,11 +665,10 @@ ul a:hover{
 }
 
 .bylaw-main{
+  padding-top: 5rem;
   text-align: center;
   background-color: #1B2A21;
   color: white;
-  font-size: 1.1rem;
-  /* margin-bottom: -50px; */
 }
 
 
@@ -711,7 +698,6 @@ ul a:hover{
   text-align: center;
   background-color: #1B2A21;
   color: white;
-  font-size: 1.1rem;
 }
 
 #donate-form{
@@ -726,7 +712,6 @@ ul a:hover{
 }
 
 #donate-form p {
-  font-size: 1.25rem;
   color: white;
   text-align: center;
 }
@@ -781,7 +766,6 @@ ul a:hover{
 }
 
 #volunteer-form p {
-  font-size: 1.25rem;
   padding: 5rem 0 2rem 0;
 }
 
